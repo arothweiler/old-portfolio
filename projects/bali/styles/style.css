@@ -1,0 +1,558 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: "Roboto", Arial, sans-serif;
+}
+
+/*NAVIGATION*/
+#wrapper {
+display: flex;
+flex-direction: column;
+width: 100vw;
+}
+
+#wrapper > * {
+padding: 10px;
+flex: 1 100%;
+}
+
+nav {
+width: 100%;
+background: rgba(69,69, 182, 0.55);
+display: flex;
+justify-content: space-around;
+}
+
+
+.logo {
+font-size: 2em;
+font-weight: 800;
+}
+
+.logo p span {
+color: white;
+}
+
+.list li {
+display: inline-flex;
+margin: 15px 30px 0 0;
+}
+
+.list li a {
+list-style: none;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.5);
+}
+
+.list li a:hover {
+color: white;
+
+}
+
+/*SECTION MAIN*/
+
+article.item1 {
+background-image: url(../img/bali-hero2.jpg);
+height: 80vh;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.banner {
+position: absolute;
+background: rgba(0, 0, 0, 0.25);
+left: 20%;
+top: 30%;
+font-size: 2em;
+padding: 50px;
+}
+
+.banner h1{
+color: white;
+letter-spacing: 1px;
+font-weight: 200;
+line-height: 1.5em;
+}
+
+button {
+background: rgba(0, 200, 0, 0.7);
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 30px;
+width: 250px;
+height: 50px;
+margin: 15px 0 0 0;
+cursor: pointer;
+}
+
+button:hover {
+transition: 0.4s;
+background: rgba(0, 0, 0, 0.5);
+}
+
+button a {
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+letter-spacing: 3px;
+}
+
+/*ARTICLE ITEM2*/
+
+.item2 {
+text-align: center;
+background: rgba(0, 0, 0, 0.12);
+
+}
+
+.item2 h1 {
+margin: 80px 0 60px;
+text-transform: uppercase;
+font-weight: 800;
+}
+
+.item2 h3 {
+color: grey;
+padding-bottom: 40px;
+}
+
+.activities {
+display: flex;
+text-align: center;
+justify-content:center;
+line-height: 1.8;
+}
+
+.box{
+padding: 20px;
+width: 240px;
+height: 300px;
+background: white;
+color: grey;
+margin: 25px;
+margin-bottom: 200px;
+}
+
+.box img {
+width: 40px;
+height: 40px;
+margin: 20px;
+}
+
+.box h2 {
+color: rgba(0, 0, 0, 0.5);
+}
+
+.box:hover {
+transition: 0.7s;
+box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.05);
+}
+
+/*ARTICLE ITEM3*/
+.item3 {
+display: flex;
+background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(../img/bali-hero.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 450px;
+text-align: center;
+color: white;
+flex-direction: column;
+justify-content: center;
+}
+
+.item3 h1 {
+font-size: 5em;
+font-weight: 400;
+}
+
+.item3 p {
+font-size: 1.6em;
+line-height: 3em;
+}
+
+/*ARTICLE ITEM4*/
+
+.item4 {
+background: white;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+.item4 h1 {
+font-size: 2em;
+font-weight: 900;
+letter-spacing: 2px;
+margin: 70px 0 50px;
+}
+
+.item4>h3 {
+color: #888f94;
+line-height: 2em;
+margin-bottom: 40px;
+}
+
+
+/*PORTRAIT ITEM4*/
+
+
+.trainers-section {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.trainers-section .container h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+
+.trainers-section .container p {
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    color: #848484;
+}
+
+.trainers-ctn {
+    position: relative;
+    background-size: cover;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.trainers-ctn  .trainer {
+    width: 30%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.trainers-ctn .trainer1,
+.trainers-ctn .trainer2,
+.trainers-ctn .trainer3,
+.trainers-ctn .trainer4,
+.trainers-ctn .trainer5,
+.trainers-ctn .trainer6 {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.trainers-ctn .trainer1 {
+    background-image: url(../img/trainer1.jpg);
+}
+
+.trainers-ctn .trainer2 {
+    background-image: url(../img/trainer6.jpg);
+}
+
+.trainers-ctn .trainer3 {
+    background-image: url(../img/trainer2.jpg);
+}
+
+.trainers-ctn .trainer4 {
+    background-image: url(../img/trainer5.jpg);
+}
+
+.trainers-ctn .trainer5 {
+    background-image: url(../img/trainer3.jpg);
+}
+
+.trainers-ctn .trainer6 {
+    background-image: url(../img/trainer4.jpg);
+}
+
+.trainer .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+    padding-top: 800px;
+    transition: all 0.5s ease;
+
+}
+
+.trainer .overlay:hover{
+
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 100px;
+}
+
+.overlay .trainer-details {
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.overlay .trainer-details h3  {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+.overlay .trainer-details i {
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+}
+
+
+
+/*ARTICLE ITEM5*/
+
+
+.item5 {
+background-image: url(../img/advertise3.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 100%;
+margin-top: 50px;
+text-align: left;
+color: #fff;
+}
+
+.item5 .banner-item5 {
+position: absolute;
+margin-top: -10px;
+margin-left: 5%;
+padding-right: 10%;
+background: #222831;
+height: 500px;
+padding: 30px;
+}
+
+.banner-item5 h1 {
+font-size: 70px;
+font-weight: 300;
+line-height:1.2em;
+}
+
+.banner-item5 p {
+margin: 40px 0 30px 0;
+}
+
+p + button {
+border-radius: 10px;
+font-size: 1em;
+}
+
+/*ARTICLE ITEM6*/
+.item6 {
+text-align: center;
+background: rgba(0, 0, 0, 0.1);
+padding: 10px;
+color: grey;
+flex-direction: row;
+
+}
+.item6 h1 {
+font-size: 2em;
+margin: 100px 0px 20px 0;
+color: black;
+}
+.item6 p {
+font-size: 1.2em;
+}
+.pricing-list {
+display: flex;
+justify-content:center;
+flex-direction:row;
+}
+
+
+.price {
+margin: 60px;
+text-align: center;
+background: white;
+padding: 80px;
+
+
+
+}
+.price p {
+font-size: 1.2em;
+color: #888f94;
+line-height: 1.8em;
+}
+.price p:nth-child(1), .price p:nth-child(3) {
+margin: 10px 20px 10px;
+letter-spacing: 2px;
+font-weight: 550;
+line-height: 1.3em;
+color: #888f94;
+}
+
+
+.price p:nth-child(3) {
+margin: 5px 0 15px;
+}
+.price > span {
+font-size: 3rem;
+font-weight: 600;
+}
+
+
+
+.price .active {
+background: rgba(0, 200, 0, 0.7);
+display: inline-block;
+color: white;
+
+}
+
+
+
+/*FOOTER*/
+
+footer {
+
+background: #222831;
+text-align: center;
+color: #6d6d6d;
+font-size: 1.2em;
+padding: 30px;
+letter-spacing: 2px;
+}
+
+footer .social-media {
+font-size: 2em;
+margin: 30px 0 10px 0;
+}
+
+footer p {
+line-height: 1.4em;
+}
+
+
+/*JAVASCRIPT STUFF: ;*/
+#scrollup {
+font-size: 6em;
+color: rgba(69,69, 182, 0.55);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+#navuns {
+ list-style-type: none;
+ float: left;
+}
+
+#navuns li a {
+  color: white;
+  display: block;
+}
+
+#navuns ul li a.active {
+   color: white;
+ }
+
+
+.close {
+  text-align: right;
+  position: relative;
+  color: #2c3e50
+}
+header {
+  display:block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #d0cfc5;
+  z-index: 99;
+}
+
+header{
+  display: none;
+}
+
+/*MEDIA QUERIS*/
+
+
+
+@media (max-width: 868px) {
+  .toggle {
+    display: none;
+  }
+  header{
+    color: #222831;
+    display: inline-block;
+
+  }
+  header i{
+    margin: 14px;
+  }
+
+.list {
+  display: none;
+}
+.trainers-ctn {
+flex-wrap: wrap;
+width: 100% !important;
+}
+
+
+.pricing-list  {
+flex-wrap: wrap;
+flex-direction: column;
+
+
+}
+
+
+.activities {
+  flex-wrap: wrap;
+  width: 100% !important;
+}
+.price {
+flex-direction: column;
+  width: 80%;
+  margin: 40px auto;
+  font-size: 1.8em;
+}
+
+
+
+.trainers-ctn .trainer {
+  flex-direction: column;
+    width: 60%;
+    margin: 40px auto;
+}
+.item5 .banner-item5{
+  height: 500px;
+  width: 300px;
+
+}
+.banner-item5 p {
+margin: 0px;
+}
+
+.sidenav a:nth-child(1){
+display: inline;
+
+}
+
+
+}

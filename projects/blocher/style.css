@@ -1,0 +1,50 @@
+body {
+      background: red;
+      box-sizing: border-box;
+}
+
+h1, p {
+  text-align: center;
+ letter-spacing: 3px;
+ font-weight: 400;
+}
+
+#blocherw{
+    position: relative;
+     width:400px;
+     margin:0 auto;
+}
+
+
+#blocherbild {
+  position:absolute;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   display: block;
+   width: auto;
+   height: auto;
+   width: 400px;
+}
+
+
+#blocherzufall {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  left: 100px;
+  bottom: -600px;
+  background: green;
+  border-style: none;
+ }
+
+@media (max-width: 768px) {
+#blocherzufall {
+bottom: -500px;
+
+}
+#blocherbild {
+margin-top: -50px;
+}
+}

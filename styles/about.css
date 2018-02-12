@@ -1,0 +1,47 @@
+section {
+  text-align: center;
+  overflow: auto;
+}
+
+.container aside {
+  /*background: yellow;*/
+  background-image: url("../img/violinead.jpg");
+}
+
+section h2 {
+  text-decoration:underline;
+
+}
+
+
+ article span {
+    top: -25px;
+    left: 2%;
+    position: relative;
+    float: left;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+
+}
+
+progress {
+    background-color: #f3f3f3;
+    height: 2.5em;
+    width: 100%;
+    margin-bottom: -20px;
+
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0eaf0;
+}
+
+progress::-webkit-progress-value {
+    background-color: #329ad1;
+}
+
+progress::-moz-progress-bar {
+    background-color: #329ad1;
+}
